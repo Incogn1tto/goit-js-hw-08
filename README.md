@@ -1,3 +1,5 @@
+https://incogn1tto.github.io/goit-js-hw-08/
+
 # Completed Tasks
 
 This repository contains three solutions for different tasks, each implementing
