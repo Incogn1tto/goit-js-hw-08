@@ -16,9 +16,9 @@ specific functionality.
 ## Image Gallery
 
 A simple image gallery implemented using the
-[simplelightbox](https://simplelightbox.com/) library. It allows users to view
-images in a modal window with the ability to zoom in and navigate between
-images.
+[simplelightbox](https://simplelightbox.com/) and [lodash](https://lodash.com/)
+libraries. It allows users to view images in a modal window with the ability to
+zoom in and navigate between images.
 
 ### Usage
 
@@ -30,9 +30,7 @@ images.
 </div>
 ```
 
-2. Start the project:
-
-`npm start`
+2. Start the project: `npm start`
 
 **The gallery will be available at http://localhost:1234**
 
