@@ -25,7 +25,6 @@ images.
 1. Insert the necessary HTML markup for the gallery in your HTML file:
 
 ```
-
 <div class="gallery">
   <!-- Your images -->
 </div>
@@ -46,8 +45,7 @@ images.
 
 ### Example Markup
 
-\```
-
+```
 <div class="gallery">
   <a href="path/to/image1.jpg">
     <img src="path/to/thumbnail1.jpg" alt="Image 1">
@@ -57,7 +55,7 @@ images.
   </a>
   <!-- Add more images following the same pattern -->
 </div>
-\```
+```
 
 ### Customization
 
@@ -73,7 +71,9 @@ player using local storage.
 
 ### Usage
 
-1. Insert the Vimeo player `<iframe>` in your HTML file: \```
+1. Insert the Vimeo player `<iframe>` in your HTML file:
+
+```
 <iframe
   id="vimeo-player"
   src="https://player.vimeo.com/video/your-video-id"
@@ -83,7 +83,7 @@ player using local storage.
   allowfullscreen
   allow="autoplay; encrypted-media"
 ></iframe>
-\```
+```
 
 2. Include the video.js script after the `<iframe>`:
    `<script src="video.js"></script> `
@@ -96,8 +96,7 @@ player using local storage.
 
 ### Example Usage
 
-\```
-
+```
 <iframe
   id="vimeo-player"
   src="https://player.vimeo.com/video/your-video-id"
@@ -109,8 +108,7 @@ player using local storage.
 ></iframe>
 
 <script src="video.js"></script>
-
-\```
+```
 
 ## Feedback Form
 
@@ -121,8 +119,7 @@ to resume form filling after page reload.
 
 1. Insert the HTML markup for the feedback form in your HTML file:
 
-\```
-
+```
 <form class="feedback-form" autocomplete="off">
   <label>
     Email
@@ -136,8 +133,7 @@ to resume form filling after page reload.
 </form>
 
 <script src="feedback.js"></script>
-
-\```
+```
 
 2. Start the project: `npm start`
 
@@ -149,8 +145,7 @@ to resume form filling after page reload.
 
 ### Example Usage
 
-\```
-
+```
 <form class="feedback-form" autocomplete="off">
   <label>
     Email
@@ -164,8 +159,7 @@ to resume form filling after page reload.
 </form>
 
 <script src="feedback.js"></script>
-
-\```
+```
 
 ## Contribution
 
