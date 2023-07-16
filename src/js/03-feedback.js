@@ -37,5 +37,3 @@ feedbackFromEl.addEventListener('submit', e => {
   emailInputEl.value = '';
   messageInputEl.value = '';
 });
-
-// --
