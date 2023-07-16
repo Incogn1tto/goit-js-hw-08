@@ -11,9 +11,7 @@ specific functionality.
 
 2. Navigate to the project directory: `cd goit-js-hw-08`
 
-3. Install dependencies:
-
-`npm install`
+3. Install dependencies: `npm install`
 
 ## Image Gallery
 
@@ -26,12 +24,12 @@ images.
 
 1. Insert the necessary HTML markup for the gallery in your HTML file:
 
-\```
+```
 
 <div class="gallery">
   <!-- Your images -->
 </div>
-\```
+```
 
 2. Start the project:
 
