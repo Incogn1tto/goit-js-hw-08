@@ -1,4 +1,5 @@
 import { throttle } from 'lodash';
+
 const feedbackFromEl = document.querySelector('.feedback-form');
 const emailInputEl = feedbackFromEl.querySelector('input[name="email"]');
 const messageInputEl = feedbackFromEl.querySelector('textarea[name="message"]');
@@ -30,6 +31,11 @@ feedbackFromEl.addEventListener('submit', e => {
     email: emailInputEl.value,
     message: messageInputEl.value,
   };
+
+  if (formData.email.trim() === '' || formData.message.trim() === '') {
+    alert('Please, fill up all fields');
+    return;
+  }
 
   console.log(formData);
 
